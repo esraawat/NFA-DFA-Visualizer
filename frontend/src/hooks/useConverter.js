@@ -1,7 +1,7 @@
 import { useMutation } from '@tanstack/react-query'
 import axios from 'axios'
 
-const BASE = '/api'
+const BASE = 'https://nfa-dfa-visualizer.onrender.com/api'
 
 export function useConverter() {
   return useMutation({
